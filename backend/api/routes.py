@@ -13,9 +13,10 @@ def generate():
     return {"message": "Hello from API"}
         
 
+# week 2 task
 @router.post("/generate")
 def generate_message(request: RequestMessage):
-    """Endpoint to generate a message using Ollama model"""
+    """Endpoint to generate a message"""
     try:
         result = translate_text(request.message)
         print(result)
