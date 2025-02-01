@@ -15,4 +15,4 @@ docker-compose build
 docker-compose up
 ```
 
-You can translate texts using webui, or sending requests to the backend.
+You can translate texts using webui, or sending requests to endpoint api/generate.
