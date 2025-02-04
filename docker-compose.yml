@@ -13,18 +13,18 @@ services:
     - .env
 
   frontend:
-    build:
-      context: ./frontend
-    container_name: frontend
-    ports:
-      - "8501:8501"
-    depends_on:
-      - backend
-    networks:
-      - default-net
-    restart: always
-    env_file:
-    - .env
+      build: ./react-frontend
+      container_name: react_frontend
+      ports:
+        - "5173:5173" 
+      depends_on:
+        - backend
+      networks:
+        - default-net
+      environment:
+        - CHOKIDAR_USEPOLLING=true
+      env_file:
+        - .env
 
 networks:
   default-net:
