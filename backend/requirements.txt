@@ -4,3 +4,8 @@ uvicorn
 python-dotenv
 groq
 requests
+transformers
+torch 
+datasets 
+huggingface_hub 
+accelerate
