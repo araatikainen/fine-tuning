@@ -2,6 +2,16 @@
 
 This repository contains a Sentiment Analysis Application built with React (Vite), FastAPI, and Docker. The application allows users to analyze sentiment from a given text using different language models.
 
+### Models
+
+llama-3.3-70b-versatile (Groq API)
+
+Fine-tuned DistilBert
+
+[Model](https://huggingface.co/raati/distilbert_imdb_sentiment_analysis)
+[Tokenizer](https://huggingface.co/raati/distilbert_imdb_sentiment_analysis_tokenizer)
+
+
 ### Setup & Installation
 
 #### Prerequisites
