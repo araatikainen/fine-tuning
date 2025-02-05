@@ -43,3 +43,12 @@ docker-compose up --build
 - Frontend: http://localhost:5173
 
 - Backend: http://localhost:8000/docs#/default (Swagger UI for API)
+
+
+or send directly requests to backend using curl
+
+```bash
+POST http://localhost:8000/api/analyze \
+  -H "Content-Type: application/json" \
+  -d '{"text": "This is funnnn", "model": "llama"}'
+```
