@@ -52,3 +52,19 @@ POST http://localhost:8000/api/analyze \
   -H "Content-Type: application/json" \
   -d '{"text": "This is funnnn", "model": "llama"}'
 ```
+
+
+## Task 2 technical
+
+Implementation can be found in 
+
+```bash
+backend/api/routes.py 
+```
+in endpoint /generate.
+
+and 
+```bash
+backend/services/groq.py
+```
+in function translate_text().
