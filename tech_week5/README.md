@@ -20,10 +20,11 @@ print("Rouge Score version:", rouge_score.__version__)
 ```
 
 
-#### Screenshot of Hugging Face model
+### Screenshot of Hugging Face model
  accessable at https://huggingface.co/raati/TinyLlama-1.1B-dialogsum-finetuned
 
-![image.png](attachment:image.png)
+![image](https://github.com/user-attachments/assets/17571069-a5d4-456d-acb4-a7d7802a803e)
+
 
 
 #### Sample outputs
